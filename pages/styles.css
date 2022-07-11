@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 375px) and (max-width: 375px) {
+  body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    background-color: hsl(30, 38%, 92%);
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 355px;
+    height: 592px;
+    font-family: 'Fraunces', serif;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+  }
+  .img-mobile {
+    flex-basis: 40%;
+    width: inherit;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .img-desktop {
+    width: 100%;
+    display: none;
+  }
+  .story {
+    flex-basis: 60%;
+    padding: 0 25px;
+  }
+  .price-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .cart-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    color: white;
+  }
+
+  .cart-link {
+    text-decoration: none;
+  }
+
+  .cart-link:visited {
+    color: inherit;
+  }
+
+  .cart-icon {
+    margin-right: 10px;
+  }
+
+  .story-product {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    
+  }
+  .story-header {
+    margin: 10px 0;
+    font-weight: 700;
+
+  }
+  .story-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: hsl(228, 12%, 48%);
+  }
+
+  .price-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .new-price {
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    padding-right: 20px;
+    margin: 0px;
+  }
+
+  .old-price {
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1440px) {
+  body {
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .component{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    font-family: 'Fraunces', serif;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+  }
+  .img-mobile {
+    display: none;
+  }
+  .img-desktop {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 50%;
+  }
+  .story {
+    width: 50%;
+    padding: 0 25px;
+  }
+  .price-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .cart-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    color: white;
+  }
+
+  .cart-link {
+    text-decoration: none;
+  }
+
+  .cart-link:visited {
+    color: inherit;
+  }
+
+  .cart-icon {
+    margin-right: 10px;
+  }
+
+  .story-product {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    padding-top: 10px;
+    color: hsl(228, 12%, 48%);
+    
+  }
+  .story-header {
+    font-weight: 700;
+
+  }
+  .story-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: hsl(228, 12%, 48%);
+  }
+
+  .price-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .new-price {
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    padding-right: 20px;
+  }
+
+  .old-price {
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+  }
+}
+
+
+
+
+/* .component {
+  display: flex;
+  flex-direction: row;
+  max-width: 600px;
+  max-height: 600px;
+  justify-content: center;
+  font-family: 'Fraunces', serif;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+} */
+
+
+
+/* .img-desktop {
+  width: 50%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+} */
+
+/* .story {
+  width: 50%;
+  padding: 0 25px;
+} */
