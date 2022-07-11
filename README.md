@@ -32,6 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://nablanco.github.io/product-preview-card/
+- Solution Repo: https://github.com/nablanco/product-preview-card
 
 ## My process
 
