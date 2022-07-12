@@ -15,7 +15,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
-Build out a product preview card component and get it to look as close as possible to the design preview and style-guide. 
+Build out a product preview card component and get it to look as close as possible to the design preview and style-guide.
+
+Important note: I followed the intstructions literally, and so the webpage link below will only work at the specified 375px and 1440px. In the future, I will have the component change from vertical to horizontal at a screen width in-between the two.
 ### The challenge
 
 Users should be able to:
@@ -31,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://nablanco.github.io/product-preview-card/
+- Solution URL: https://nablanco.github.io/product-preview-card/pages/index.html
 - Solution Repo: https://github.com/nablanco/product-preview-card
 
 ## My process
