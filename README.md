@@ -1,7 +1,5 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -17,7 +15,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 Build out a product preview card component and get it to look as close as possible to the design preview and style-guide.
 
-Important note: I followed the intstructions literally, and so the webpage link below will only work at the specified 375px and 1440px. In the future, I will have the component change from vertical to horizontal at a screen width in-between the two.
+Important note: I followed the screen sizing in the style guide literally, and so the webpage will only work at the specified 375px and 1440px. In the future, I will have the component change from vertical to horizontal at a screen width in-between the two.
 ### The challenge
 
 Users should be able to:
@@ -25,7 +23,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size:
   - Mobile: width = 375px
   - Desktop: width = 1440px
-- See hover and focus states for interactive elements
+- See hover state for the "Add to Cart" button.
 
 ### Screenshot
 
@@ -34,7 +32,6 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://nablanco.github.io/product-preview-card/pages/index.html
-- Solution Repo: https://github.com/nablanco/product-preview-card
 
 ## My process
 
@@ -47,7 +44,7 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- Semantic HTML5
 - CSS custom properties
 - Flexbox
 - CSS Flex
@@ -55,5 +52,5 @@ Users should be able to:
 
 ## Author
 
-- Website (under construction) - https://nicholasblanco.com/ 
+- Website - https://nicholasblanco.com/ 
 - Frontend Mentor - https://www.frontendmentor.io/profile/nablanco
